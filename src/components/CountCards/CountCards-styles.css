@@ -1,0 +1,32 @@
+.count-card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.count-card{
+    flex: 1 0 40%;
+    filter: drop-shadow(1px 5px 1px rgb(0, 0, 0,0.25));
+    border-radius: 1vw;
+    height: auto;
+    background-color: rgb(247,249,250);
+    margin: 2.3%;
+    min-height: 10vh;
+}
+
+.count-card-text{
+    margin: 1px;
+    padding: 10px;
+    vertical-align: top;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.count-card-value{
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    bottom: 0;
+    left: 0;
+    vertical-align: bottom;
+}

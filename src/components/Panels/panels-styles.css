@@ -1,0 +1,19 @@
+.Header{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    min-width: 75%;
+    max-width: fit-content;
+    padding-top: 20px;
+}
+
+.header-image{
+    margin: auto 10px;
+    flex-grow: 1;
+    width: auto;
+    height: auto;
+    max-width: 70vw;
+    padding-top: 15px;
+}
+

@@ -1,0 +1,6 @@
+.introduction{
+    min-width: 75%;
+    max-width: min-content;
+    margin: 0 auto;
+    font-size: large;
+}
