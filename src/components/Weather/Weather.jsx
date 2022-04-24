@@ -5,13 +5,13 @@ function Weather() {
 	const [temp, setTemp] = useState(null);
 	useEffect(() => {
 		fetch(
-			"https://api.openweathermap.org/data/2.5/weather?q=Hyderabad&appid=2c59ee1d17909a2d4d12edde63867f17"
+			"https://api.openweathermap.org/data/2.5/weather?q=Hyderabad&units=metric&appid=2c59ee1d17909a2d4d12edde63867f17"
 		)
 			.then((response) => {
 				return response.json();
 			})
 			.then((data) => {
-				setTemp(Math.round(data.main.temp - 272.15));
+				setTemp(Math.round(data.main.temp));
 			});
 	}, []);
 	if (!temp) {

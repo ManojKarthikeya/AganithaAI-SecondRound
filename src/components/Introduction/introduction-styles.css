@@ -1,6 +1,10 @@
-.introduction{
-    min-width: 75%;
-    max-width: min-content;
+.introduction-container{
+    width: 75%;
     margin: 0 auto;
+}
+
+.introduction{
+    overflow-wrap: break-word;
+    width: fit-content;
     font-size: large;
 }

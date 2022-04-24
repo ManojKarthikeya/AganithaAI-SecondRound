@@ -1,18 +1,17 @@
 .second-paragraph{
     font-size: large;
     display: flex;
-    max-width: min-content;
     min-width: 75%;
+    max-width: min-content;
     margin: 0 auto;
     gap: 10px;
     align-items: center;
 }
 
 .s-image{
-    width: 60vw;
-    height: auto;
 }
 
 .s-text{
+    width: 40vw;
     word-wrap: break-word;
 }
