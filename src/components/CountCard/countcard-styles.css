@@ -1,10 +1,7 @@
-.count-card-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
 .count-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     flex: 1 0 40%;
     filter: drop-shadow(1px 5px 1px rgb(0, 0, 0,0.25));
     border-radius: 1vw;
@@ -23,10 +20,12 @@
 }
 
 .count-card-value{
-    font-weight: bold;
     padding: 10px;
+    margin-bottom: 10px;
     text-align: left;
     bottom: 0;
     left: 0;
     vertical-align: bottom;
+    text-align: start;
+    font-weight: bold;
 }

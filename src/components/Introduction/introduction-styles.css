@@ -1,10 +1,16 @@
 .introduction-container{
-    width: 75%;
+    color: grey;
+    font-size: large;
+    min-width: 75vw;
+    width: min-content;
     margin: 0 auto;
 }
 
 .introduction{
-    overflow-wrap: break-word;
-    width: fit-content;
-    font-size: large;
+}
+
+h1{
+    font-size: x-large;
+    padding-left: 10px;
+    border-left: 10px rgb(71,207,214) solid;
 }

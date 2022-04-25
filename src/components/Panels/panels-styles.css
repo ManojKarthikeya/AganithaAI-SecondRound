@@ -1,19 +1,26 @@
-.Header{
+.Panel{
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
+    align-items: center;
     min-width: 75%;
     max-width: fit-content;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
-.header-image{
-    margin: auto 10px;
+.Panel-image{
+    max-height: 700px;
+    max-width: 60vw;
+    margin: auto 0;
     flex-grow: 1;
-    width: auto;
-    height: auto;
-    max-width: 70vw;
+    flex-basis: 70%;
     padding-top: 15px;
+    height: auto;
 }
 
+.count-card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

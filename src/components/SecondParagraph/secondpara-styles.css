@@ -1,17 +1,31 @@
 .second-paragraph{
+    color: grey;
     font-size: large;
     display: flex;
     min-width: 75%;
     max-width: min-content;
     margin: 0 auto;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .s-image{
+    flex-basis: 70%;
+    max-width: 800px;
+    overflow: hidden;
 }
 
 .s-text{
-    width: 40vw;
+    min-width: 200px;
+    flex-grow: 1;
+    width: min-content;
     word-wrap: break-word;
+}
+
+h2{
+    font-size: 1.4rem;
+    padding-left: 6px;
+    border-left: 5px rgb(71,207,214) solid;
 }
