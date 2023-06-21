@@ -13,7 +13,6 @@ function App() {
       <Panels/>
       <Introduction/>
       <SecondParagraph/>
-      <footer style={{fontSize: "small"}}>Developed by Manoj Karthikeya</footer>
     </div>
   );
 }
